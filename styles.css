@@ -1,0 +1,22 @@
+.input-field {
+  display: inline-block;
+  width: 60px;
+}
+
+.player-cell {
+  white-space: nowrap;
+}
+
+.round-cell {
+  white-space: nowrap;
+}
+
+.total-cell {
+  white-space: nowrap;
+  text-align: center; /* Center align the content */
+  font-weight: bold; /* Make the text bold */
+}
+
+.highest-value {
+  background-color: gold; /* Apply a background color to highlight the cell */
+}
