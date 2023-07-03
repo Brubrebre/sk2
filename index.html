@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skull King Score Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Skull King Score Tracker</h1>
+
+  <label for="numPlayers">Number of Players:</label>
+  <input type="number" id="numPlayers" min="1" value="4">
+  <br>
+
+  <label for="numRounds">Number of Rounds:</label>
+  <input type="number" id="numRounds" min="1" value="10">
+  <br>
+
+  <label for="totalCards">Total Cards:</label>
+  <input type="number" id="totalCards" min="1" value="73">
+  <br>
+
+  <button id="createGameButton">Create Table</button>
+  
+  <table id="scoreTable"></table>
+  
+  <button id="nextRoundButton" hidden>Next Round</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
